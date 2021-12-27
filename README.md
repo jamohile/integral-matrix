@@ -4,6 +4,10 @@ This is a simple implementation of the summed-area table used by Frank Crow, Vio
 
 I found the approach really elegant, and wanted to explore a quick implementation.
 
+Run Tests: (from root)
+
+`python -m unittest discover tests`
+
 Motivation:
 - There are some cases where you need to compute a number of region-sums in a matrix. Done naively through iteration, this can be slow and expensive.
 
